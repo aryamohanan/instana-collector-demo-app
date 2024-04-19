@@ -1,7 +1,7 @@
 // index.js
 
-const instana = require('@instana/collector');
-instana();
+// const instana = require('@instana/collector');
+// instana();
 // Import required modules
 const express = require('express');
 const got = require('got');
