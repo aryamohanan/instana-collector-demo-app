@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Instana tracer test app",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@instana/collector": "^4.0.1",
     "express": "^4.19.2",
     "got": "^11.8.6"
   }
